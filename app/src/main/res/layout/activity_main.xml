@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<ImageView
+    android:layout_marginTop="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_baseline_contact_mail_24"
+    android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTACT BOOK"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        />
+<EditText
+    android:id="@+id/nameData"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="70dp"
+    android:hint="Enter Name"
+    android:inputType="textPersonName"
+    android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/contactData"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Contact"
+        android:textSize="20sp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/mailData"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Mail id"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress"
+        />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Add to database"
+        android:textSize="20sp"/>
+
+    <ImageButton
+        android:id="@+id/viewBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_action_name"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        />
+
+
+</LinearLayout>
